@@ -1,0 +1,53 @@
+body{
+	background: #283c86;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+td{
+	width: 100px;
+	height: 100px;
+}
+table{
+	margin: 200px auto;
+}
+.vertical{
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+.horizontal{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+#mid{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;	
+}
+h1{
+	text-align: center;
+}
+td{
+	font-size: 50px;
+	text-align: center;
+}
+.winner{
+	display: none;
+}
+.win{
+	background-color: black;
+}
+.name_heading{
+	margin-top: 200px;
+}
+input
+{
+	display: inline-block;
+	float: left;
+	margin-left: 675px;
+}
+button
+{
+	display: inline-block;
+	float: left;
+	margin-left: 725px;
+}
