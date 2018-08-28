@@ -113,6 +113,6 @@ $("#restart").click(function(){
 	i = 0;
 	c = 0;
 	$("td").text("");
-})
+});
 
 
