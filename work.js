@@ -1,4 +1,4 @@
-alert("Connected");
+
 var i = 0; var x; var c = 0; var p; var n1; var n2;
 var a1;
 var a2;
@@ -18,11 +18,13 @@ $("td").click("keypress",function(){
 	if((x === "") && (c < 1)){
 	if(i % 2 === 0)
 	{
+		$(this).css("color","black");
 		$(this).text("X");
 		i = i + 1;
 	}
 	else
 	{
+		$(this).css("color","black");
 		$(this).text("O");
 		i = i + 1;
 	}
@@ -100,12 +102,7 @@ $("td").click("keypress",function(){
 			p = a1;
 			c = c + 1;
 		}
-		if(p === "X")
-		{
-			n1 = $("#player_one").val();
-			$(".winner").html(n1 + "IS WINNER");
-			$(".winner").css("display","normal");
-		}
+
 	
 	}
 });
