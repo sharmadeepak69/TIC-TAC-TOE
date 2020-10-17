@@ -5,8 +5,8 @@ background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, F
 
 }
 td{
-	width: 100px;
-	height: 100px;
+	width: 101px;
+	height: 101px;
 }
 table{
 	margin: 200px auto;
